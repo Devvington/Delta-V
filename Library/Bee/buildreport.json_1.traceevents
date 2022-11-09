@@ -1,0 +1,568 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667088411068752, "dur": 673908, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411068955, "dur": 3125, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411072081, "dur": 33015, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411105098, "dur": 176564, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411281664, "dur": 449003, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411730670, "dur": 11990, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411742955, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667088411168793, "dur": 80911, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411169583, "dur": 32539, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411235157, "dur": 3729, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411238889, "dur": 10809, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411239429, "dur": 7928, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411253297, "dur": 1019, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667088411252653, "dur": 1682, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411743017, "dur": 249, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667088411302291, "dur":477, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411302774, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667088411302830, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667088411302841, "dur":411, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667088411303274, "dur":793, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411304067, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411706516, "dur":388, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411706904, "dur":74, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411706978, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411706980, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707015, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707017, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707029, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707038, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707040, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707046, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707047, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707054, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707055, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707072, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707073, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707078, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707080, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707093, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707095, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707099, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707101, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707107, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707109, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707113, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707115, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707120, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707124, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707125, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707129, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707131, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707134, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707148, "dur":0, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411707159, "dur":1639, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667088411303374, "dur":698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411304074, "dur":1186, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411305266, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667088411305270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411305782, "dur":206, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667088411305990, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667088411306030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411306130, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667088411308177, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1667088411308190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411308193, "dur":16300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1667088411324508, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411324769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411324773, "dur":16475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411341270, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411341430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411341434, "dur":15929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411357375, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411371706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411371710, "dur":31127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411402851, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411404024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411404030, "dur":46063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411450106, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411463949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411463953, "dur":16226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411480191, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411480305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411480308, "dur":44829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411525184, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411525720, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411525731, "dur":31608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667088411557347, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667088411557357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667088411572711, "dur":65421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667088411638166, "dur":68359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411303379, "dur":706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411304086, "dur":1200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411305286, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667088411305324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411307173, "dur":17157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667088411324344, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411324586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411324613, "dur":15544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411340175, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411340308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411340313, "dur":15803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411356129, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411356248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411357286, "dur":15402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411372697, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411372774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411372777, "dur":30087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411403024, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411404047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411404053, "dur":46036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411450109, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411450238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411450243, "dur":28666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411478926, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411479084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411479087, "dur":46076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411525182, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411525713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411525718, "dur":30428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411556169, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411556409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411556412, "dur":30940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667088411587365, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1667088411587447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411587451, "dur":38852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1667088411626312, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1667088411626321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667088411626324, "dur":11029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1667088411637370, "dur":69148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411303401, "dur":707, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411304109, "dur":1165, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411305276, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667088411305334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411306815, "dur":17576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667088411324403, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411324550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411324599, "dur":15581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411340199, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411340305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411340309, "dur":15837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411356157, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411357288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411357295, "dur":15404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411372708, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411372802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411372805, "dur":30056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411403026, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411404052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411404058, "dur":28809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411432876, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411433004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411433007, "dur":31061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411464088, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411464268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411464271, "dur":29718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411494001, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411494108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411494112, "dur":31681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411525815, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411525936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411525940, "dur":15634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411541586, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411556164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411556170, "dur":33225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667088411589406, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1667088411603731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667088411603743, "dur":30607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1667088411634363, "dur":72154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411303428, "dur":701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411304130, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411305270, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1667088411305465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411306347, "dur":17691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1667088411324055, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1667088411324966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411324970, "dur":46745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1667088411371737, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411371883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411371886, "dur":30971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411402930, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411404014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411404033, "dur":28820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411432862, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411432951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411432955, "dur":31109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411464080, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411464251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411464255, "dur":29556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411493829, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411493976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411493980, "dur":31740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411525791, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411526165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411526170, "dur":30006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411556189, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411556336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411556339, "dur":16511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667088411572881, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1667088411573000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411573003, "dur":61191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1667088411634207, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667088411634309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667088411634315, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1667088411634927, "dur":71587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411303398, "dur":697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411304095, "dur":1191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411305287, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667088411305322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411306445, "dur":18044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1667088411324505, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411324690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411324694, "dur":16534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411341248, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411341370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411341376, "dur":15975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411357369, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411371702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411371707, "dur":31136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411402998, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411404058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411404063, "dur":46021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411450127, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411463958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411463962, "dur":29844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411493819, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411493926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411493931, "dur":31222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411525176, "dur":2459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411540762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667088411540768, "dur":94626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667088411635402, "dur":71130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411303419, "dur":699, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411304118, "dur":1148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411305267, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667088411305324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411306344, "dur":17943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1667088411324313, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411324565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411324598, "dur":15713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411340325, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411340424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411340429, "dur":16908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411357353, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411371647, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411371655, "dur":31177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411402847, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411403972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411403976, "dur":28258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411432244, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411432335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411432338, "dur":17449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411449801, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411450091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411450111, "dur":15171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411465297, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411478998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411479007, "dur":46428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411525453, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411525797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411525802, "dur":15779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411541592, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411541757, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411541761, "dur":15431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667088411557203, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667088411557229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667088411557232, "dur":149241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667088411706484, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1667088411706486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411303448, "dur":690, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411304138, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411305279, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1667088411305469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411306248, "dur":18099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1667088411324359, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411324588, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411324625, "dur":15560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411340205, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411340325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411340330, "dur":16976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411357333, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411357474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411357479, "dur":45272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411402769, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411402889, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411402963, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411405358, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411431919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411431928, "dur":18133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411450081, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411464038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411464042, "dur":62034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411526087, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411526539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411526544, "dur":61438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667088411587990, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667088411587999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667088411588002, "dur":49621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667088411637634, "dur":68895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411303471, "dur":671, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411304142, "dur":1122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411305266, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1667088411305454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411306336, "dur":17589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1667088411323945, "dur":4382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411340158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411340188, "dur":140010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411480213, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411480341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411480344, "dur":44814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411525179, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411525303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411525308, "dur":15390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411540718, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411540843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411540846, "dur":15820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667088411556678, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1667088411556786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411556956, "dur":15839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1667088411572833, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667088411572844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667088411572847, "dur":108422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667088411681284, "dur":25238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411303502, "dur":644, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411304146, "dur":1118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411305267, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1667088411305293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411306606, "dur":17714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1667088411324334, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411324583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411324639, "dur":15721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411340380, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411341236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411341242, "dur":16070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411357324, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411371641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411371653, "dur":31198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411402937, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411403989, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411404033, "dur":28887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411432929, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411433003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411433007, "dur":31064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411464084, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411464257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411464260, "dur":29674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411493945, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411494035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411494039, "dur":31759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411525814, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411525979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411525983, "dur":15661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411541655, "dur":2303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411556169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1667088411556173, "dur":84959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1667088411641167, "dur":65352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667088411303541, "dur":609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667088411304150, "dur":1138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667088411305288, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1667088411305483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667088411306306, "dur":17727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1667088411324052, "dur":13200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667088411340163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1667088411340169, "dur":304028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1667088411644209, "dur":62323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411303555, "dur":598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411304153, "dur":1127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411305282, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1667088411305335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411306857, "dur":17185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1667088411324069, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V.exe" }}
+,{ "pid":12345, "tid":11, "ts":1667088411324606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411324610, "dur":31303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V.exe" }}
+,{ "pid":12345, "tid":11, "ts":1667088411355923, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411357316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411357322, "dur":48011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411405345, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411431912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411431924, "dur":18142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411450083, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411450204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411450209, "dur":15001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411465217, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411478913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411478918, "dur":46214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411525145, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411525251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411525257, "dur":15358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411540654, "dur":1455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411556159, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1667088411556174, "dur":78543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1667088411634726, "dur":71802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411303572, "dur":585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411304157, "dur":1115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411305272, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1667088411305318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411306371, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1667088411308180, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1667088411308193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411308196, "dur":16390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1667088411324602, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411324721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411324725, "dur":16509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411341256, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411341408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411341413, "dur":15896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411357321, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411371696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411371702, "dur":31064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411402775, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411402934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411402941, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411405365, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411431924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411431931, "dur":18149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411450096, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411450248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411450253, "dur":28652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411478927, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411479187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411479190, "dur":46196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411525412, "dur":1091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411526506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411526510, "dur":61693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1667088411588211, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667088411588232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1667088411588234, "dur":46142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1667088411634385, "dur":72131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411303589, "dur":571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411304160, "dur":1128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411305288, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1667088411305348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411307013, "dur":17239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1667088411324266, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411324402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411324567, "dur":15608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411340197, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411340316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411340321, "dur":15829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411356160, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411357293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411357301, "dur":30809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411388125, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411388273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411388279, "dur":15788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411404089, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411404273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411404276, "dur":45851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411450149, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411463954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411463958, "dur":16767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411480734, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411480812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411480815, "dur":44328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411525165, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411525296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411525301, "dur":15401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411540718, "dur":730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411541451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411541456, "dur":62282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1667088411603753, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1667088411603762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1667088411603765, "dur":30669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1667088411634442, "dur":72071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411303606, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411304164, "dur":1123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411305287, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1667088411305459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411306315, "dur":17838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1667088411324174, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1667088411324191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411324482, "dur":169334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1667088411493854, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411493946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411493950, "dur":31473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411525435, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411525839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411525845, "dur":15626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411541482, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411541744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411541748, "dur":31106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1667088411572869, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1667088411572881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1667088411572884, "dur":65869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1667088411638761, "dur":67769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411303625, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411304167, "dur":1115, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411305282, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1667088411305461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411306248, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1667088411308175, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1667088411308186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411308190, "dur":16227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1667088411324453, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411324542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411324599, "dur":15774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411340387, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411341241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411341254, "dur":16091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411357360, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411357473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411357477, "dur":45349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411402842, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411404018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411404023, "dur":46048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411450085, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411450202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411450207, "dur":15128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411465343, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411478909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411478915, "dur":31174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411510100, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411510241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411510248, "dur":15940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411526200, "dur":1778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411540765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411540771, "dur":79134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1667088411619914, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667088411619924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1667088411619927, "dur":17432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1667088411637374, "dur":69157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411303649, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411304170, "dur":1093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411305266, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1667088411305446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411306316, "dur":17612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1667088411323945, "dur":898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411324846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411324997, "dur":31104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411356114, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411357305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411357309, "dur":30929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411388247, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411402818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411402823, "dur":29091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411431960, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411432122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411432125, "dur":17950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411450088, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411450250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411463948, "dur":16797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411480755, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411493785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411493792, "dur":31356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411525167, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411525363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411525367, "dur":15394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411540804, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411540952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411540955, "dur":15714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1667088411556682, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1667088411556697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411556712, "dur":32671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1667088411589393, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1667088411589406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1667088411603715, "dur":33647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Unity/Unity Hub/BetaDeltaV/Delta V_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1667088411637397, "dur":69127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667088411709950, "dur":2611, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667088411743303, "dur": 1696, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667088411742944, "dur": 2077, "ph": "X", "name": "Write chrome-trace events", "args": {} },
