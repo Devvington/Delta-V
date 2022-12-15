@@ -11,8 +11,6 @@ public class OrbitScript : MonoBehaviour
     public float orbit = 120;
     public float maximum = 50;
 
-
-
     public bool closeOrbit;
 
     void Start()

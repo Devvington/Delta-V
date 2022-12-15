@@ -9,6 +9,7 @@ TagManager:
   - cutenik
   - booster
   - Ship
+  - diffi
   layers:
   - Default
   - TransparentFX

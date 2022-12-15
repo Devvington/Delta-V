@@ -18,10 +18,10 @@ public class petMove : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.LookAt(ship.transform, Vector3.up);
+        //transform.LookAt(ship.transform, Vector3.up);
         if(isMoving != true)
         {
-            StartCoroutine(Wander());
+            //StartCoroutine(Wander());
         }
     }
 

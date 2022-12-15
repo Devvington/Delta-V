@@ -11,10 +11,12 @@ ScriptsOnlyBuild:
     - billboard
     - boostMaker
     - booster
+    - camShake
     - enginePower
     - falling
     - inGameUI
     - makeMeStars
+    - petMove
     - slideMe
     - upStar
     Unity.Rider.Editor.dll:
@@ -26,6 +28,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -74,7 +82,40 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: UIcontrol
+    methodName: SetPilot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: SetFoxy
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: FoxySelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: SetCutenik
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: CutenikSelect
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: SetPilot
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
     methodName: legIt
+  - assembly: Assembly-CSharp
+    fullTypeName: UIcontrol
+    methodName: showFunMenu
   - assembly: Assembly-CSharp
     fullTypeName: UIcontrol
     methodName: LaunchGame
@@ -89,13 +130,22 @@ ScriptsOnlyBuild:
     methodName: toMainMenu
   - assembly: Assembly-CSharp
     fullTypeName: inGameUI
-    methodName: LoadScene
+    methodName: exception
   - assembly: Assembly-CSharp
     fullTypeName: inGameUI
     methodName: LoadScene
   - assembly: Assembly-CSharp
     fullTypeName: inGameUI
     methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: inGameUI
+    methodName: LoadScene
+  - assembly: Assembly-CSharp
+    fullTypeName: inGameUI
+    methodName: exception
+  - assembly: Assembly-CSharp
+    fullTypeName: TheWorld
+    methodName: escMenu
   sceneClasses:
     Assets/Scenes/Delta V.unity:
     - Class: 1
@@ -120,67 +170,79 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2298}
+      Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2604}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 3066}
+      Script: {instanceID: 2668}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3070}
     - Class: 114
-      Script: {instanceID: 4134}
+      Script: {instanceID: 3926}
     - Class: 114
-      Script: {instanceID: 5192}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 5282}
+      Script: {instanceID: 5194}
     - Class: 114
-      Script: {instanceID: 5804}
+      Script: {instanceID: 5284}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5806}
     - Class: 114
-      Script: {instanceID: 5910}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 6056}
+      Script: {instanceID: 5912}
     - Class: 114
-      Script: {instanceID: 6194}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 6402}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 6802}
+      Script: {instanceID: 6404}
     - Class: 114
-      Script: {instanceID: 6846}
+      Script: {instanceID: 6804}
     - Class: 114
-      Script: {instanceID: 7032}
+      Script: {instanceID: 6848}
     - Class: 114
-      Script: {instanceID: 7260}
+      Script: {instanceID: 7034}
     - Class: 114
-      Script: {instanceID: 7344}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 7764}
+      Script: {instanceID: 7346}
     - Class: 114
-      Script: {instanceID: 8192}
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 8174}
+    - Class: 114
+      Script: {instanceID: 8196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -226,35 +288,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1546}
     - Class: 114
-      Script: {instanceID: 2210}
+      Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 2878}
     - Class: 114
-      Script: {instanceID: 4134}
+      Script: {instanceID: 4136}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4248}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4518}
     - Class: 114
-      Script: {instanceID: 5282}
+      Script: {instanceID: 5284}
     - Class: 114
-      Script: {instanceID: 5448}
+      Script: {instanceID: 5450}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5538}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 5910}
+      Script: {instanceID: 5912}
     - Class: 114
-      Script: {instanceID: 6056}
+      Script: {instanceID: 6058}
     - Class: 114
-      Script: {instanceID: 6402}
+      Script: {instanceID: 6404}
+    - Class: 114
+      Script: {instanceID: 6804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -276,6 +340,12 @@ ScriptsOnlyBuild:
     - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -368,7 +438,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreakMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 8c7cd714c66b787caa0c3e1fbf6ea4cb
+      Hash: 34335e7c3d603eea4dfbf1f6089f0c6a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: boostMaker
@@ -402,6 +472,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 2d70f10174aa476c10131db2536e7ab1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: petMove
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -498,12 +574,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -608,7 +678,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1e8751d6d624e80069a1b7d63498cce2
+      Hash: 34598e28b3cd971e176b0dfc9005aa93
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: falling
@@ -794,7 +864,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameInvisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 783b30b9e9eadfdc0e85020bbfce45a4
+      Hash: 0cc7f78137ff7e1185d100e2acd7c165
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIcontrol
@@ -836,7 +906,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 9c27a65865ffb32450d38c32efb30119
+      Hash: e6de4d583a0291402c1b00709e711e9e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TheWorld
@@ -1040,7 +1110,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 213c4c1bea22fdb17c46b382a1cbb295
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: inGameUI
@@ -1124,6 +1194,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: camShake
+  - hash:
+      serializedVersion: 2
       Hash: 512471c107d2620844dd94f63b92adfc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1156,4 +1232,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Delta V.unity
-  playerPath: D:/Unity/Unity Hub/BetaDeltaV/Delta V.exe
+  playerPath: C:/Users/ashwo/OneDrive/Desktop/DetlaV_Release/Delta V.exe

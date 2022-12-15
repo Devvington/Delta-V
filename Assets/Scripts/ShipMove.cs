@@ -47,7 +47,7 @@ public class ShipMove : MonoBehaviour
 
         if (other.CompareTag("booster"))
         {
-            StartCoroutine(Boost(1));
+            StartCoroutine(Boost(2));
 
             if(damage <= 5)
             {
